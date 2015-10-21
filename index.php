@@ -3,7 +3,7 @@
 include 'view/header.php'; 
 include 'include/template_function.php';
  
- const resourcePath='resource/';
+ const resourcePath='model/';
 const viewPath='view/';
     if(isset($_GET['page'])){
         switch ($_GET['page']){
