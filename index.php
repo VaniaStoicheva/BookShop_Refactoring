@@ -23,10 +23,6 @@ default :$page='books';
     }else{
         $page='books';
     }
-  $data='./'.resourcePath.'/'.$page.'.php' ;
-  
-  
-  
 
-render($data,'./'.resourcePath.'/'.$page.'.php' );
+include './'.resourcePath.'/'.$page.'.php';
 exit;
